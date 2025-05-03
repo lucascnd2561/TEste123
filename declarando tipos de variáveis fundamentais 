@@ -1,0 +1,17 @@
+using System;
+
+namespace MyCompiler {
+    class Program {
+        public static void Main(string[] args) {
+            Console.WriteLine("Ola, Lucas!"); // Ola, Lucas! aqui no caso só troquei o a leitura.
+
+            string Nome = " ruth";
+            char simbolo ='$';
+            int Ln1 = 22;
+
+            Console.WriteLine($"Leia Nome:{Nome},{simbolo},{Ln1} "); // Leia Nome: ruth,$,22 nessa linha com a Interpolação ler as as variáveis armazenadas de seus tipo.
+
+        
+        }
+    }
+}

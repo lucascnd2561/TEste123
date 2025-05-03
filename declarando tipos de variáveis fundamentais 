@@ -1,7 +1,7 @@
 using System;
 
 namespace MyCompiler {
-    class Program {
+    class Logica {
         public static void Main(string[] args) {
             Console.WriteLine("Ola, Lucas!"); // Ola, Lucas! aqui no caso só troquei o a leitura.
 

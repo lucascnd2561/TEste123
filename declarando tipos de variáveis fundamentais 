@@ -8,8 +8,14 @@ namespace MyCompiler {
             string Nome = " ruth";
             char simbolo ='$';
             int Ln1 = 22;
+            double ln2 = 20.5;
+            double resultado = (ln1 +   ln2);
+
 
             Console.WriteLine($"Leia Nome:{Nome},{simbolo},{Ln1} "); // Leia Nome: ruth,$,22 nessa linha com a Interpolação ler as as variáveis armazenadas de seus tipo.
+
+ Console.WriteLine($"A Soma e:  {resultado}");
+        
 
         
         }

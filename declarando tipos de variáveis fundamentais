@@ -1,0 +1,38 @@
+using System;
+
+namespace MyCompiler {
+    class Logica {
+        public static void Main(string[] args) {
+            Console.WriteLine("boa noite"); // Ola, Lucas! aqui no caso só troquei o a leitura.
+
+            string Nome = " ruth";
+            char simbolo ='$';
+            int Ln1 = 22;
+            double ln2 = 20.5;
+            double resultado = (ln1 +   ln2);
+
+
+            Console.WriteLine($"Leia Nome:{Nome},{simbolo},{Ln1} "); // Leia Nome: ruth,$,22 nessa linha com a Interpolação ler as as variáveis armazenadas de seus tipo.
+
+ Console.WriteLine($"A Soma e:  {resultado}");
+            
+            
+            string logica = "ola, lucas";
+        Console.WriteLine(logica.StartsWith("o"));// Verifica se começa pela letra"o" e retorna true ou false;
+         Console.WriteLine(logica.ToUpper()); // Muda todas as letras para maiúsculas;
+            
+            
+        
+        logica = "ola, Antonio ";
+        
+          Console.WriteLine(logica.ToUpper());
+           Console.WriteLine(logica.Contains("Antonio")); //Verifica se contem tal palavra e retorna true e false;
+
+        logica = "ola, Matheus";
+        
+          Console.WriteLine(logica.ToUpper());
+          Console.WriteLine(logica.Length);  // Conta as palavras e espaços entre elas;
+        
+        }
+    }
+}
